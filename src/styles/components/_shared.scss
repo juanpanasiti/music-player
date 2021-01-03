@@ -1,0 +1,39 @@
+.shared__sidebar{
+    background-color: $primary;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 450px;
+}
+
+.shared__user {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;    
+    
+}
+.shared__user-info {
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    
+    &:hover {
+        color: $secondary;
+    }
+}
+.shared__user-photo {
+    border-radius: 25px;
+    height: 50px;
+    margin-right: 10px;
+    object-fit: cover;
+    width: 50px;
+}
+.shared__user-data {
+    
+    transition: all .3s ease;
+    
+}

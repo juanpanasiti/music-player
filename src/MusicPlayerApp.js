@@ -1,9 +1,8 @@
 import React from 'react'
+import { AppRouter } from './routers/AppRouter'
 
 export const MusicPlayerApp = () => {
     return (
-        <div>
-            <h1>Music Player</h1>
-        </div>
+        <AppRouter/>
     )
 }
